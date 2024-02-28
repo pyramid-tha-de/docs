@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://pyramid-tha-de.github.io',
+  base: '/docs',
 	integrations: [
 		starlight({
 			title: 'Pyramid Docs',
@@ -11,7 +13,7 @@ export default defineConfig({
 				// replacesTitle: true,
     //   },
       editLink: {
-        baseUrl: '',
+        baseUrl: 'https://github.com/pyramid-tha-de/docs/edit/main',
       },
 			social: {
 				github: 'https://github.com/pyramid-tha-de',

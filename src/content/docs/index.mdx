@@ -1,0 +1,40 @@
+---
+title: Pyramid
+description: Dokumentation fuer Team Technik & IT
+template: splash
+banner:
+  content: "Die Messe findet am 8. Mai 2024 statt!"
+hero:
+  tagline: Dokumentation Team Technik & IT
+  // image:
+  //   file: ../../assets/pyramid_logo_horizontal.webp
+  //   alt: THA Logo
+  actions:
+    - text: Erste Schritte
+      link: /about/team
+      icon: right-arrow
+      variant: primary
+    - text: Webseite
+      link: https://pyramid-hsa.de
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Team Mitglieder" icon="pencil">
+		- Johannes
+	</Card>
+	<Card title="Administratoren" icon="setting">
+		- ...
+	</Card>
+	<Card title="Software" icon="open-book">
+		- [Zappier]()
+		- [Formstack]()
+		- [Pushover]()
+		- [Doku](https://starlight.astro.build/)
+	</Card>
+	<Card title="Im Auftrag" icon="external">
+		![THA Logo](../../assets/THA-Logos/S/THA_Wordmark_S_Red_RGB.svg)
+	</Card>
+</CardGrid>

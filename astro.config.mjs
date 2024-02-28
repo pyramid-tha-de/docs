@@ -11,10 +11,10 @@ export default defineConfig({
 				// replacesTitle: true,
     //   },
       editLink: {
-        baseUrl: 'https://codeberg.org/knolljo/linktree/_edit/main/index.html',
+        baseUrl: '',
       },
 			social: {
-				github: 'https://github.com/pyramid/docs.pyramid.tha.de',
+				github: 'https://github.com/pyramid-tha-de',
 			},
 			sidebar: [
 				{

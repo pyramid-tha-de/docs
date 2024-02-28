@@ -21,7 +21,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Erste Schritte',
-					autogenerate: { directory: 'stack' },
+					autogenerate: { directory: 'about' },
 				},
 				{
 					label: 'Stack',

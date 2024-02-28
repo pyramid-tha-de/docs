@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://pyramid-tha-de.github.io',
-  base: '/',
+  base: '/docs',
 	integrations: [
 		starlight({
 			title: 'Pyramid Docs',
@@ -22,8 +22,8 @@ export default defineConfig({
 				{
 					label: 'Erste Schritte',
 		      items: [
-		        { label: 'Team', link: '/about/team' },
-		        { label: 'Prozesse', link: '/about/process' },
+		        { label: 'Team', link: '/docs/about/team' },
+		        { label: 'Prozesse', link: '/docs/about/process' },
 		      ],
 				},
 				{

@@ -22,8 +22,8 @@ export default defineConfig({
 				{
 					label: 'Erste Schritte',
 		      items: [
-		        { label: 'Team', link: '/docs/about/team' },
-		        { label: 'Prozesse', link: '/docs/about/process' },
+		        { label: 'Team', link: '/about/team' },
+		        { label: 'Prozesse', link: '/about/process' },
 		      ],
 				},
 				{

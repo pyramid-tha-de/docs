@@ -3,6 +3,5 @@ title: Ansprechpartner
 description: Partner der THA
 ---
 
-- **RZ**: ...@tha.de
-- **DNS**: ...@tha.de
-- **App**: ...@tha.de
+- **Leitung**: klaus.kellner@tha.de
+- **App-Datenschutzrecht**: nataly.rohr@tha.de
